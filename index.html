@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Krish Yadav</title>
+    <title>Krish Yadav</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#0f172a;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+
+        .card{
+            background:#111827;
+            padding:40px;
+            border-radius:20px;
+            width:90%;
+            max-width:600px;
+            text-align:center;
+            box-shadow:0 0 30px rgba(0,0,0,.3);
+        }
+
+        h1{
+            font-size:3rem;
+            margin-bottom:10px;
+        }
+
+        p{
+            color:#94a3b8;
+            margin:12px 0;
+        }
+
+        .email{
+            color:#38bdf8;
+            text-decoration:none;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            background:#2563eb;
+            color:white;
+            padding:12px 24px;
+            border-radius:10px;
+            text-decoration:none;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+        }
+    </style>
 </head>
+
 <body>
-<h1>Hey, I'm Krish 👋</h1>
-<p>Owner of crisx.in</p>
-<p>Learning Python, Linux & Cybersecurity.</p>
-<p>Contact: hi@crisx.in</p>
+
+<div class="card">
+
+    <h1>Krish Yadav 👋</h1>
+
+    <p>Student • Python • Linux • Cybersecurity</p>
+
+    <p>
+        Building skills in programming, networking and security.
+    </p>
+
+    <p>
+        📧
+        <a class="email" href="mailto:hi@crisx.in">
+            hi@crisx.in
+        </a>
+    </p>
+
+    <a class="btn" href="mailto:hi@crisx.in">
+        Contact Me
+    </a>
+
+</div>
+
 </body>
 </html>
