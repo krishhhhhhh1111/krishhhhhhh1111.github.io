@@ -1,90 +1,115 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-    <title>Krish Yadav</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krish Yadav</title><style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Inter,Arial,sans-serif;
+}
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, sans-serif;
-        }
+body{
+    background:#07152f;
+    color:white;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
 
-        body{
-            background:#0f172a;
-            color:white;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            min-height:100vh;
-        }
+.card{
+    max-width:700px;
+    width:100%;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:24px;
+    padding:50px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.4);
+}
 
-        .card{
-            background:#111827;
-            padding:40px;
-            border-radius:20px;
-            width:90%;
-            max-width:600px;
-            text-align:center;
-            box-shadow:0 0 30px rgba(0,0,0,.3);
-        }
+h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
 
-        h1{
-            font-size:3rem;
-            margin-bottom:10px;
-        }
+.tagline{
+    color:#8ea3c7;
+    font-size:1rem;
+    margin-bottom:25px;
+}
 
-        p{
-            color:#94a3b8;
-            margin:12px 0;
-        }
+.about{
+    line-height:1.8;
+    color:#d7ddeb;
+    margin-bottom:30px;
+}
 
-        .email{
-            color:#38bdf8;
-            text-decoration:none;
-        }
+.section{
+    margin-top:25px;
+}
 
-        .btn{
-            display:inline-block;
-            margin-top:20px;
-            background:#2563eb;
-            color:white;
-            padding:12px 24px;
-            border-radius:10px;
-            text-decoration:none;
-        }
+.section h3{
+    margin-bottom:12px;
+}
 
-        .btn:hover{
-            background:#1d4ed8;
-        }
-    </style>
-</head>
+ul{
+    padding-left:18px;
+    line-height:2;
+}
 
-<body>
+.links{
+    margin-top:35px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
 
-<div class="card">
+.links a{
+    text-decoration:none;
+    color:white;
+    background:#2563eb;
+    padding:12px 18px;
+    border-radius:10px;
+    transition:.2s;
+}
 
-    <h1>Krish Yadav 👋</h1>
+.links a:hover{
+    transform:translateY(-2px);
+}
 
-    <p>Student • Python • Linux • POOPIPAM</p>
+.footer{
+    margin-top:35px;
+    color:#8ea3c7;
+    font-size:.9rem;
+}
+</style></head><body><div class="card"><h1>Krish Yadav 👋</h1><p class="tagline">
+Student • Linux • Python • Cybersecurity
+</p><p class="about">
+I'm a student who enjoys learning how computers, networks and operating systems work.Currently exploring Linux, Python, networking and cybersecurity while building projects and improving my technical skills every day.
 
-    <p>
-        Building skills in programming, networking and security.
-    </p>
-
-    <p>
-        📧
-        <a class="email" href="mailto:hi@crisx.in">
-            hi@crisx.in
-        </a>
-    </p>
-
-    <a class="btn" href="mailto:hi@crisx.in">
-        Contact Me
-    </a>
-
-</div>
-
-</body>
+</p><div class="section">
+<h3>Currently Learning</h3>
+<ul>
+<li>Linux & System Administration</li>
+<li>Python Automation</li>
+<li>Computer Networking</li>
+<li>Cybersecurity Fundamentals</li>
+</ul>
+</div><div class="section">
+<h3>Projects</h3>
+<ul>
+<li>Personal Portfolio Website</li>
+<li>Custom Domain Setup (crisx.in)</li>
+<li>Python Learning Projects</li>
+</ul>
+</div><div class="links">
+<a href="mailto:hi@crisx.in">Email Me</a>
+<a href="https://github.com/krishhhhhhh1111">GitHub</a>
+</div><div class="footer">
+© 2026 crisx.in
+</div></div></body>
 </html>
